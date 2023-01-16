@@ -19,5 +19,5 @@ import jobs.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('mss/', jobs.views.mss, name='mss')
+    path('', jobs.views.homepage, name='homepage')
 ]
